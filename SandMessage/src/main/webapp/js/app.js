@@ -1,0 +1,1 @@
+var kodi = angular.module("app.kodi",["ngAnimate","ui.bootstrap"]);
