@@ -6,5 +6,5 @@
         maxWait="10000"
         username="SA"
         driverClassName="org.hsqldb.jdbc.JDBCDriver"
-        url="jdbc:hsqldb:hsql://localhost/"/>	
+        url="jdbc:hsqldb:file:C:/programmation/tools/db/sandmessage"/>	
 </Context>
