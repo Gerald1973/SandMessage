@@ -1,4 +1,4 @@
-package com.smilemile1973;
+package com.smilesmile1973;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
