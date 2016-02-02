@@ -1,4 +1,4 @@
-package vo;
+package com.smilesmile1973.vo;
 
 public class PersonVO {
 	private String firstName;

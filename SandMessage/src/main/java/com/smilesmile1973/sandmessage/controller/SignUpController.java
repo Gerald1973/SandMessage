@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import vo.PersonVO;
+import com.smilesmile1973.vo.PersonVO;
 
 @Controller
 public class SignUpController {
