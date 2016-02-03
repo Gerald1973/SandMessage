@@ -7,7 +7,7 @@
 <title>Sign up</title>
 </head>
 <body>
-	<form:form action="addPerson">
+	<form:form commandName="form" action="addPerson.html">
 		<table>
 			<tr>
 				<td>First name</td>
