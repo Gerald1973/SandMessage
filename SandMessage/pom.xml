@@ -10,14 +10,6 @@
 	<artifactId>sandmessage</artifactId>
 	<packaging>war</packaging>
 	
-	<properties>
-		<version.junit>3.8.1</version.junit>
-		<version.spring>4.2.4.RELEASE</version.spring>
-		<version.hsqldb>2.3.3</version.hsqldb>
-		<version.hibernate>5.0.0.Final</version.hibernate>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-	
 	<dependencies>
 		<dependency>
 			<groupId>org.hsqldb</groupId>
