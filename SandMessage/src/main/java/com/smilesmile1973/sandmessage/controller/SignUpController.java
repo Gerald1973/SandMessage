@@ -5,16 +5,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.smilesmile1973.vo.PersonVO;
+import com.smilesmile1973.dto.PersonDTO;
 
 @Controller
 public class SignUpController {
-	private PersonVO personVO;
+	private PersonDTO personDTO;
 
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	public ModelAndView initialize() {
-		personVO = new PersonVO();
-		ModelAndView result = new ModelAndView("signUp", "command", personVO);
+		personDTO = new PersonDTO();
+		ModelAndView result = new ModelAndView("signUp", "command", personDTO);
 		return result;
 	}
 

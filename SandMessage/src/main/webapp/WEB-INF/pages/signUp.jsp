@@ -19,7 +19,11 @@
 			</tr>
 			<tr>
 				<td>Email</td>
-				<td><form:input path="eMail" /></td>
+				<td><form:input path="email" /></td>
+			</tr>
+			<tr>
+				<td>Nickname</td>
+				<td><form:input path="nickname" /></td>
 			</tr>
 			<tr>
 				<td>Password</td>
